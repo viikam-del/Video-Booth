@@ -73,7 +73,7 @@ function generateGoldFloralOverlay(names: string, date: string, hashtag?: string
   ctx.shadowColor = 'rgba(0, 0, 0, 0.8)';
   ctx.shadowBlur = 8;
   ctx.font = '600 44px "Playfair Display", Georgia, serif';
-  ctx.fillText(names || 'Sarah & Michael', 960, 1005);
+  ctx.fillText(names || 'Diksha & Vishal', 960, 1005);
 
   // Date and hashtag text
   ctx.font = '400 22px "Inter", sans-serif';

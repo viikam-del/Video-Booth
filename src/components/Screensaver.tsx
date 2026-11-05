@@ -142,23 +142,28 @@ export function Screensaver({ settings, onDismiss }: ScreensaverProps) {
           <Heart className="w-8 h-8 fill-gold-400/30 stroke-gold-400" />
         </div>
 
-        <p className="text-xs uppercase tracking-[0.35em] text-gold-300 font-sans mb-3 flex items-center gap-2">
+        <p className="text-sm font-serif tracking-[0.25em] text-gold-300 mb-3 flex items-center gap-2">
           <Sparkles className="w-3.5 h-3.5 text-gold-400" />
-          Wedding Video Guestbook
+          ॥ श्री गणेशाय नमः ॥
           <Sparkles className="w-3.5 h-3.5 text-gold-400" />
         </p>
 
         <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl text-white font-bold tracking-tight mb-2 drop-shadow-md">
-          {settings.coupleNames || 'Sarah & Michael'}
+          {settings.coupleNames || 'Diksha & Vishal'}
         </h1>
 
-        <p className="text-sm sm:text-base text-gold-200/90 font-serif italic mb-6">
-          {settings.weddingDate || 'Together Forever'}
+        <p className="text-base sm:text-lg text-gold-200/90 font-serif italic mb-4">
+          A love story, written in the stars.
+        </p>
+
+        <p className="text-xs sm:text-sm text-white/80 max-w-lg leading-relaxed mb-6 font-sans">
+          From familiar beginnings to forever, our paths found their way to each other.
+          With the blessings of the Almighty and the love of our families, we cordially invite you to grace our wedding celebrations as we begin this beautiful new chapter together.
         </p>
 
         <div className="h-[1px] w-24 bg-gradient-to-r from-transparent via-gold-400 to-transparent mb-6" />
 
-        <h2 className="text-xl sm:text-2xl font-serif text-white/95 font-medium mb-3">
+        <h2 className="text-lg sm:text-xl font-serif text-white/95 font-medium mb-3">
           {settings.screensaverTitle || 'Leave a Video Message for the Newlyweds!'}
         </h2>
 
@@ -181,8 +186,8 @@ export function Screensaver({ settings, onDismiss }: ScreensaverProps) {
       </div>
 
       {/* Subtle bottom indicator */}
-      <div className="absolute bottom-6 text-center text-xs tracking-widest text-gold-200/40 uppercase">
-        Tap anywhere to record
+      <div className="absolute bottom-6 text-center text-xs tracking-widest text-gold-300 font-semibold uppercase flex flex-col items-center gap-1 animate-pulse">
+        <span>THE BEGINNING OF FOREVER ↓</span>
       </div>
     </div>
   );
